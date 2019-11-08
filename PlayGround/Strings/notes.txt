@@ -1,0 +1,57 @@
+/**
+ * Strings
+ */
+public class Strings {
+    public static void main(String[] args) {
+        String s = "Java is an object-oriented Programming language and a registered trademark of Company Sun Microsystems, which was launched in 2010 by Oracle was bought.";
+        System.out.println("There are this many characters: " +s.length());
+        //s.charAt(0); // Explanation: dot (.) gives us the attribute (detail that belongs to the object) of a specific variable 
+        int count = 0;
+        for(int i = 0; i<s.length(); i++) {
+            char ch = s.charAt(i);
+            if(ch == ' ') {
+                count = count +1;
+            } 
+        }
+
+        System.out.println("There are this many spaces: " +count);
+
+        boolean thisisacomma = false; // i havent found the , yet.
+
+        count = 0;
+
+        // ! => LOGIC NOT
+        while(!thisisacomma){  // ! means it flips the value of the statement to the opposite of it. // loops work on True statements 
+            char ch = s.charAt(count);
+            if(ch == ','){
+                thisisacomma = true;
+            }
+            else{ 
+                count++;
+            }
+        }
+        
+        System.out.println("The first comma appears at " +count);
+
+        String caps = "";
+
+        for(int i = 0; i<s.length(); i++) {
+            
+            char ch = s.charAt(i);
+            if(Character.isUpperCase(ch)) {
+                caps = caps + ch;
+            }
+        }
+        
+        System.out.println("These are the upper-case characters :" + caps);
+    }
+}
+
+/**
+ * ...... .... .... { int x = 5; { int y = x; println(x); println(y); }
+ * println(y); }
+ */
+
+
+
+ 

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Strings",
+            "request": "launch",
+            "mainClass": "Strings",
+            "projectName": "JavaCourse_3487059"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BeerSong",
             "request": "launch",
             "mainClass": "BeerSong",

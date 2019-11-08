@@ -48,5 +48,36 @@ public class arrays {
         }
 
         System.out.println(abc+"'s Arrays Similar in places");
+
+
+
+         /** EXAMPLE HOW TO FILL AN ARRAY WITH NUMBERS + DRY RUN 
+         *   1   2   3  4  5  
+         * [ []  []  []  [] [] ]
+         *   0   1   2   3  4 
+         * 
+         * int[] a;
+         * a = new int[5];
+         * 
+         * for(int i  = 0 ; i < a.length ; i++)
+         * {
+         *   // WE ARE GOING OVER ALLL THE ELEMENTS IN THE ARRAY
+         *  a[i] = i;
+         * }
+         * 
+         * a[0] = 0;
+         * a[1] = 1;
+         * 
+         * [ [0]  [1]  [2]  [3] [4] ]
+         *   0   1   2   3  4 
+         * 
+         * i    a.length    i < a.length    
+         * 0    5           True            DO LINE OF CODE a[0] = 0;
+         * 1    5           True            DO LINE OF CODE a[1] = 1;
+         * 2    5           True
+         * 3    5           True    
+         * 4    5           True            a[4] = 4;
+         * 5    5           False           DONE WITH THE LOOP
+         */
     }
 }
