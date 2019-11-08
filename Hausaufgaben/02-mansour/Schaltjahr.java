@@ -25,5 +25,7 @@ public class Schaltjahr {
                 System.out.println("31 Days");
             }
         }
+
+        s.close();
     }
 }

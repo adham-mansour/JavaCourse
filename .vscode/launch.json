@@ -2,6 +2,25 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BeerSong",
+            "request": "launch",
+            "mainClass": "BeerSong",
+            "projectName": "JavaCourse_3487059"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - arrays",
+            "request": "launch",
+            "mainClass": "arrays"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Homework3",
+            "request": "launch",
+            "mainClass": "Homework3"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Arrays",
             "request": "launch",
             "mainClass": "Arrays"

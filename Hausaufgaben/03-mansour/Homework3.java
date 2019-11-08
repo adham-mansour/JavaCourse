@@ -7,7 +7,6 @@ public class Homework3 {
         int numbers[] = new int[50];
         Random rand = new Random();
 
-
         for( i = 0; i < numbers.length; ++i){
             numbers[i] = rand.nextInt(11);
         }
