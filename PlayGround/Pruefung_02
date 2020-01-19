@@ -1,0 +1,35 @@
+char[][] puzzle = {
+            {'j', 'a', 'v', 'a', 'e', 'x', 'y'},
+            {'e', 'f', 'j', 'a', 'v', 'b', 'f'},
+            {'i', 'q', 'k', 'V', 'p', 'm', 'f'},
+            {'a', 'j', 'j', 'a', 'v', 'a', 'J'},
+            {'e', 'f', 'a', 'h', 'i', 'g', 'A'},
+            {'i', 'q', 'v', 'v', 'p', 'm', 'V'},
+            {'a', 'b', 'a', 'J', 'a', 'v', 'A'}
+    };
+
+public static void findWords(char[][] cw.String word) {
+    for(int row = 0; row<cw.length; row++) {
+        for (int col=0; cold<cw[0].length; col++) {
+
+        }
+    }
+
+    findWords(puzzle, word:"Java");
+}
+
+public static void findWords(char[][] cw.String word) {
+    for(int row=0; row<cw.length; row++) {
+
+    
+public static void findHorizontal(char[][] cw, String word, int row0, int col0) {
+    if(col0 + word.length() > cw[0].length)
+    return;
+    for(int i=0; i<word.length(); i++) {
+        if(Character.toLowerCase(word.CharAt(i)) !=
+        Character.toLowerCase (cw[row0][col0])) {
+            return;
+        }
+    }
+    System.out.format("HOrizontaler Treffer row = %d col = %d\n", row0, col0);
+}

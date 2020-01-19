@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GausscheFormel",
+            "request": "launch",
+            "mainClass": "GausscheFormel"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ScannerUebung",
             "request": "launch",
             "mainClass": "ScannerUebung"
